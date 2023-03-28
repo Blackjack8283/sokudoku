@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>速読英単語</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" ></script>
+</head>
+<body>
+<h1>速読英単語(速度可変)</h1>
+<label for="audio_num">番号を選択</label>
+  <select id="audio_num">
+    <option value="">選択されていません</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+    <option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+    <option value="27">27</option>
+    <option value="28">28</option>
+    <option value="29">29</option>
+    <option value="30">30</option>
+    <option value="31">31</option>
+    <option value="32">32</option>
+    <option value="33">33</option>
+    <option value="34">34</option>
+    <option value="35">35</option>
+    <option value="36">36</option>
+    <option value="37">37</option>
+    <option value="38">38</option>
+    <option value="39">39</option>
+    <option value="40">40</option>
+    <option value="41">41</option>
+    <option value="42">42</option>
+    <option value="43">43</option>
+    <option value="44">44</option>
+    <option value="45">45</option>
+    <option value="46">46</option>
+    <option value="47">47</option>
+    <option value="48">48</option>
+</select>
+<div>
+    <p id="value">速度: x1.00</p>
+    <input type="range" id="speed"
+        min="0.5" max="2.0" value="1.00" step="0.01" list="values" 
+    />
+
+    <datalist id="values">
+        <option value="0.50" label="x0・50"></option>
+        <option value="0.60" label="x0・60"></option>
+        <option value="0.70" label="x0・70"></option>
+        <option value="0.80" label="x0・80"></option>
+        <option value="0.90" label="x0・90"></option>
+        <option value="1.00" label="x1・00"></option>
+        <option value="1.10" label="x1・10"></option>
+        <option value="1.20" label="x1・20"></option>
+        <option value="1.30" label="x1・30"></option>
+        <option value="1.40" label="x1・40"></option>
+        <option value="1.50" label="x1・50"></option>
+        <option value="1.60" label="x1・60"></option>
+        <option value="1.70" label="x1・70"></option>
+        <option value="1.80" label="x1・80"></option>
+        <option value="1.90" label="x1・90"></option>
+        <option value="2.00" label="x2・00"></option>
+    </datalist>
+
+    <audio 
+        controls src="" preload="auto" id="audio" playbackrate = "1.0" style="display:none">
+    </audio>
+
+
+</div>
+</body>
+</html>

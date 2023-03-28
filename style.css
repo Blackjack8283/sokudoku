@@ -1,0 +1,28 @@
+datalist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 12px;
+    width: 100%;
+}
+  
+option {
+    padding: 0;
+}
+  
+input[type="range"] {
+    width: 100%;
+    margin: 0;
+}
+
+select {
+    height: 40px;
+    font-size:30px;
+}
+
+audio {
+    width : 100%;
+    margin-top: 3%;
+}
